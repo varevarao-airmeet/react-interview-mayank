@@ -1,6 +1,10 @@
 Please assume you have the following availbale:
 - Under `src/context` you have the React Context for an authenticated user
 
+## Setup
+- Install dependencies: `npm install`
+- Run the app watching for changes: `npm start`
+
 ## Problem Statements
 1. Modify the hook, under `src/hooks/useFakeConnection` to implment the functionality mentioned in that file
 2. Modify the component under `src/components/UserCard.js` which uses the above hook, and prints the user information (including connected state) in a box in the middle of the page
